@@ -60,9 +60,9 @@ def print_grid(grid, path, start, goal):
         for j in range(len(grid[0])):
             pos = (i, j)
             if pos == start:
-                row += "S"
+                row += "S "
             elif pos == goal:
-                row += "G"
+                row += "G "
             elif grid[i][j] == 1:
                 row += "█ " # 장애물
             elif pos in path:
