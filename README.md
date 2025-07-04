@@ -47,12 +47,14 @@ astar-path-planner-simulator/
 
 ## 🧪 Test Map Example
 
+```
 S . . . .
 . # # # .
 . . . # .
 . # . . .
 . . . # G
 
+```
 
 - `S`: Start
 - `G`: Goal
