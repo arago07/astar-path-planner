@@ -25,9 +25,7 @@ astar-path-planner-simulator/
 ├── day1_console_astar/
 │ └── main.py # Text-based path planning on a grid
 ├── day2_visual_astar/
-│ ├── main.py # Visual animation using matplotlib
-│ ├── test2.py # Temporary test file
-│ └── main.loop.py # Alternate testing version
+│ └── main.py # Visual animation using matplotlib
 ├── map_sample.txt
 └── README.md
 
@@ -109,9 +107,9 @@ python main.py
 Expected output: 애니메이션으로 노드 탐색 과정과 최종 경로가 시각화됩니다.
 
 ## 📌 Result
-콘솔 버전에서는 텍스트 기반 경로 출력으로 A* 알고리즘의 흐름을 확인할 수 있습니다.
+콘솔 버전: 텍스트 기반 경로 출력으로 A* 알고리즘의 흐름을 확인할 수 있습니다.
 
-시각화 버전에서는 실제 경로 탐색 과정을 실시간으로 애니메이션으로 확인할 수 있어 직관적인 이해가 가능합니다.
+시각화 버전: 실제 경로 탐색 과정을 실시간으로 애니메이션으로 확인할 수 있어 직관적인 이해가 가능합니다.
 
 ListedColormap을 활용해 방문 노드, 경로, 장애물을 구분된 색상으로 표현했습니다.
 
